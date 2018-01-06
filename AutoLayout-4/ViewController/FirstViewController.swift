@@ -10,8 +10,4 @@ import UIKit
 
 class FirstViewController: BaseViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
 }

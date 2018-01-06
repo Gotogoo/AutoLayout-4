@@ -32,9 +32,7 @@ class SecondViewController: BaseViewController {
         switch UIDevice.current.orientation {
         case .portrait:
             navigationController?.setNavigationBarHidden(false, animated: true)
-        case .landscapeLeft:
-            navigationController?.setNavigationBarHidden(true, animated: true)
-        case .landscapeRight:
+        case .landscapeLeft, .landscapeRight:
             navigationController?.setNavigationBarHidden(true, animated: true)
         default:
             break
